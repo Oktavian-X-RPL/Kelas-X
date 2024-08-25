@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papan Catur</title>
+    <style>
+        .black-pion{
+            height: 100px;
+            margin-left: 10px;
+        }
+        .white-pion{
+            height: 100px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Papan Catur</h1>
+    <table style="width: 800px; margin:30px auto" border="0">
+        <tbody style="background-color: rgb(255, 230, 0);">
+            <tr>
+                <td style="background-color: black;height: 100px;width: 100px;"><img src="blackcastle.png.png" style="height: 100px;margin-left: 12px;" alt=""></td>
+                <td><img src="blackhorse.png.png" style="height: 100px;margin-left: 18px;" alt=""></td>
+                <td style="background-color: black;height: 100px;width: 100px;"><img src="BlackBishop.png.png" style="height: 100px;margin-left: 15px;" alt=""></td>
+                <td style="height: 100px;width: 100px;"><img src="blackking.png.png" style="height: 100px;margin-left: 25px;" alt=""></td>
+                <td style="background-color: black;height: 100px;width: 100px;"><img src="blakqueen.png.png" style="height: 100px;margin-left: 25px;" alt=""></td>
+                <td style="height: 100px;width: 100px;"><img src="BlackBishop.png.png" style="height: 100px;margin-left: 15px;" alt=""></td>
+                <td style="background-color: black;height: 100px;width: 100px;"><img src="blackhorse.png.png" style="height: 100px;margin-left: 18px;" alt=""></td>
+                <td style="height: 100px;width: 100px;"><img src="blackcastle.png.png" style="height: 100px;margin-left: 12px;" alt=""></td>
+            </tr>
+            <tr>
+                <td class="black-pion"><img src="blackpion.png.png" style="height: 100px;margin-left: 20px;" alt=""></td>
+                <td style="background-color: black;" class="black-pion"><img src="blackpion.png.png" style="height: 100px;margin-left: 20px;" alt=""></td>
+                <td class="black-pion"><img src="blackpion.png.png" style="height: 100px;margin-left: 20px;" alt=""></td>
+                <td style="background-color: black;" class="black-pion"><img src="blackpion.png.png" style="height: 100px;margin-left: 20px;" alt=""></td>
+                <td class="black-pion"><img src="blackpion.png.png" style="height: 100px;margin-left: 20px;" alt=""></td>
+                <td style="background-color: black;" class="black-pion"><img src="blackpion.png.png" style="height: 100px;margin-left: 20px;" alt=""></td>
+                <td class="black-pion"><img src="blackpion.png.png" style="height: 100px;margin-left: 20px;" alt=""></td>
+                <td style="background-color: black;" class="black-pion"><img src="blackpion.png.png" style="height: 100px;margin-left: 20px;" alt=""></td>
+            </tr>
+            <tr>
+                <td style="background-color: black;width: 100px; height: 100px;">1</td>
+                <td></td>
+                <td style="background-color: black;">3</td>
+                <td></td>
+                <td style="background-color: black;">5</td>
+                <td></td>
+                <td style="background-color: black;">7</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="background-color: black;width: 100px; height: 100px;">2</td>
+                <td></td>
+                <td style="background-color: black;">4</td>
+                <td></td>
+                <td style="background-color: black;">6</td>
+                <td></td>
+                <td style="background-color: black;">8</td>
+            </tr>
+            <tr>
+                <td style="background-color: black;width: 100px; height: 100px;">1</td>
+                <td></td>
+                <td style="background-color: black;">3</td>
+                <td></td>
+                <td style="background-color: black;">5</td>
+                <td></td>
+                <td style="background-color: black;">7</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="background-color: black;width: 100px; height: 100px;">2</td>
+                <td></td>
+                <td style="background-color: black;">4</td>
+                <td></td>
+                <td style="background-color: black;">6</td>
+                <td></td>
+                <td style="background-color: black;">8</td>
+            </tr>
+            <tr>
+                <td style="background-color: black;width: 100px;height: 100px;"><img src="whitepion.png.png" style="height: 100px;margin-left: 10px;" alt=""></td>
+                <td style="height: 100px;width: 100px;"><img src="whitepion.png.png" style="height: 100px;margin-left: 10px;" alt=""></td>
+                <td style="background-color: black;height: 100px;width: 100px;"><img src="whitepion.png.png" style="height: 100px;margin-left: 10px;" alt=""></td>
+                <td style="height: 100px;width: 100px;"><img src="whitepion.png.png" style="height: 100px;margin-left: 10px;" alt=""></td>
+                <td style="background-color: black;height: 100px;width: 100px;"><img src="whitepion.png.png" style="height: 100px;margin-left: 10px;" alt=""></td>
+                <td style="height: 100px;width: 100px;"><img src="whitepion.png.png" style="height: 100px;margin-left: 10px;" alt=""></td>
+                <td style="background-color: black;height: 100px;width: 100px;"><img src="whitepion.png.png" style="height: 100px;margin-left: 10px;" alt=""></td>
+                <td style="height: 100px;width: 100px;"><img src="whitepion.png.png" style="height: 100px;margin-left: 10px;" alt=""></td>
+            </tr>
+            <tr>
+                <td class="white-pion"><img src="whitecastle.png.png" style="height: 100px;margin-left: 10px;" alt=""></td>
+                <td style="background-color: black;" class="white-pion"><img src="whitehorse.png.png" style="height: 100px;margin-left: 10px;" alt=""></td>
+                <td class="white-pion"><img src="whitebishop.png.png" style="height: 100px;margin-left: 10px;" alt=""></td>
+                <td style="background-color: black;" class="white-pion"><img src="whitequeen.png.png" style="height: 100px;margin-left: 20px;" alt=""></td>
+                <td class="white-pion"><img src="whiteking.png.png" style="height: 100px;margin-left: 20px;" alt=""></td>
+                <td style="background-color: black;" class="white-pion"><img src="whitebishop.png.png" style="height: 100px;margin-left: 10px;" alt=""></td>
+                <td class="white-pion"><img src="whitehorse.png.png" style="height: 100px;margin-left: 10px;" alt=""></td>
+                <td style="background-color: black;" class="white-pion"><img src="whitecastle.png.png" style="height: 100px;margin-left: 10px;" alt=""></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
